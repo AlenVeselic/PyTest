@@ -9,4 +9,4 @@ for foldername, subfolder, filenames in os.walk(srcPath):
 
     for filename in filenames:
         if filename.endswith('.pdf') or filename.endswith('.jpg'):
-            shutil.copy(srcPath / filename, folderPath / 'testSCpy' )
+            shutil.copy(folderPath / foldername / filename, folderPath / 'test2' )
