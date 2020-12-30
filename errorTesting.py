@@ -1,8 +1,5 @@
-import imapclient
+import pyautogui, time
 
-imapObj = imapclient.IMAPClient('imap-mail.outlook.com', ssl = True)
-
-
-# var = True and 983
-
-# print(str(var))1
+time.sleep(5)
+pyautogui.click()
+pyautogui.scroll(1000)
